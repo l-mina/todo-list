@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+</head>
+<body>
+    <h1>ToDo List</h1>
+    <div class="project-form">
+        <form id="projectForm" action="" method="post">
+            <ul>
+                <li>
+                    <label for="title">Title: </label>
+                    <input type="text" id="title" name="project_title"/>
+                </li>
+                <li>
+                    <label for="description">Details: </label>
+                    <textarea id="description" name="project_details" maxlength="110"></textarea>
+                </li>
+                <li>
+                    <label for="dueDate">Due Date: </label>
+                    <input type="date" id="dueDate" name="project_date"/>
+                </li>
+                <li>
+                    <label for="completed">Completed: </label>
+                    <input type="checkbox" id="completed" name="project_completed"/>
+                </li>
+                <li>
+                    <button type="button" id="addProject">Add Project</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+    <div id = "content">
+
+        <!-- card template
+        <div class="card">
+            <h3>Title</h3>
+            <div class="line"></div>
+            <ul>
+                <li><b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque assumenda, minima provident nobis rerum.</li>
+                <li><b>Due Date:</b> 1/2/14</li>
+                <li><b>Completed:</b><input type="checkbox"/></li>
+            </ul>
+            <div class="line"></div>
+            <button>Delete</button>
+        </div>
+        -->
+    </div>
+</body>
+</html>
